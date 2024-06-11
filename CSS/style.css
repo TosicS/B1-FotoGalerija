@@ -1,0 +1,100 @@
+body
+{
+    background-color: rgb(180, 217, 235);
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    width: 100%;
+}
+
+header h1{
+    color: rgb(43, 84, 128);
+    font-size: 35px;
+    padding-left: 10px;
+}
+
+header .menu{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(43, 84, 128);
+    color: white;
+    display: flex;
+}
+
+header .menu button{
+    background-color: rgb(43, 84, 128);
+    color: white;
+    width: 90px;
+    height: 40px;
+}       
+
+header .menu .menu-par
+{   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    padding-right: 10px;
+}
+
+.container{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+
+.container .main{
+    width: 40%;
+    height: 100%;    
+    background-color: white;
+    padding: 3px;
+}
+
+.container .main .text{
+    background-color: rgb(43, 84, 128);
+    color: white;
+    height: 10vh;
+    width: 99%;
+}
+
+.container .main .slika{
+    width: 100%;
+}
+
+.container .main .slika .image{
+    width: 100%;
+    height: 55vh;
+}
+
+.container .main .container-menu{
+    display: flex;
+    width: 100%;
+    padding: 2px;
+    flex-wrap: wrap;
+}
+
+.container .main .container-menu img{
+    width: 9.9%;
+    height: 50px;
+    padding: 2px;
+    box-sizing: border-box; 
+}
+
+.Autor, 
+.Uputstvo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 50%;
+    height: 30vh;
+    background-color: azure;
+    border-radius: 50px;
+    font-size: larger;
+    padding: 20px;
+}
