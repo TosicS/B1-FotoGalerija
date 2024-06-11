@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foto galerija</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Foto galerija</h1>
+
+        <div class="menu">
+            <button id="dugme1"> Pocetna</button>
+            <button id="dugme2"> O autoru</button>
+            <button id="dugme3"> Uputstvo</button>
+
+            <p class="menu-par">Zavrsni ispit</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="main">
+            <div class="tekst">
+                <textarea id="tekstic" class="text">Kineski zid predstavlja najveću građevinu na svetu i svakako najzanimljiviju turističku atrakciju u Kini. Njegova izgradnja trajala je dugo, a kao najznačajniji period izdvaja se period od 220. do 206. godine pre nove ere u doba Ćin Ši Huanga koji je započeo tj. nastavio izgradnju da bi zaštitio zemlju od upada varvarskih plemena. Duž celog zida poređane su stražarnice, a po vrhu se pruža staza široka 4.5 metra. Gradnja zida je okončana u 17. veku i od tada neprestano privlači pažnju svojom monumentalnošću.</textarea>
+            </div>
+
+            <div class="slika">
+                <img id="slikica" class="image" src="../Image/kineski-zid-1.png">
+            </div>
+
+            <div class="container-menu">
+                <img id="0" src="../Image/kineski-zid-1.png" onclick="insertTextImage('0')">
+                <img id="1" src="../Image/petra-2.png" onclick="insertTextImage('1')">
+                <img id="2" src="../Image/isus-rio-3.png" onclick="insertTextImage('2')">
+                <img id="3" src="../Image/tadz-mahal-4.png" onclick="insertTextImage('3')">
+                <img id="4" src="../Image/macu-pikcu-5.png" onclick="insertTextImage('4')">
+                <img id="5" src="../Image/aja-sofia-6.png" onclick="insertTextImage('5')">
+                <img id="6" src="../Image/cicenica-7.png" onclick="insertTextImage('6')">
+                <img id="7" src="../Image/koloseum-8.png" onclick="insertTextImage('7')">
+                <img id="8" src="../Image/krivi-toranj-u-pizi-9.png" onclick="insertTextImage('8')">
+                <img id="9" src="../Image/rimska-kupala.png" onclick="insertTextImage('9')">
+            </div>
+        </div>
+    </div>
+
+    <script src="../JAVASCRIPT/script.js"></script>
+</body>
+</html>
